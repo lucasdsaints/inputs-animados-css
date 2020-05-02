@@ -1,0 +1,26 @@
+:root {
+  --bg-color: #040C24;
+  --primary-color: #4EB882;
+  --primary-dark-color: #059C04;
+  --dark: #14041C;
+}
+
+body {
+  padding-top: 15vh;
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--dark)
+}
+
+.content {
+  width: 50vw;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
